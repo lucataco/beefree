@@ -1,0 +1,11 @@
+.DS_Store
+xcuserdata/
+.build/
+.swiftpm/
+DerivedData/
+build/
+
+# pairing tokens and Bluetooth captures never belong in git
+secrets.json
+*.pklg
+*.btsnoop

@@ -1,0 +1,27 @@
+[project]
+name = "beekit"
+version = "0.1.0"
+description = "Local-only Bluetooth client for the Bee wearable: control, events and audio with no cloud"
+requires-python = ">=3.11"
+dependencies = [
+    "bleak>=1.0",
+    "cbor2>=5.6",
+    "cryptography>=43",
+]
+
+[project.optional-dependencies]
+transcribe = [
+    "av>=14",
+    "mlx-whisper>=0.4",
+    "numpy>=1.26",
+]
+
+[project.scripts]
+beekit = "beekit.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
