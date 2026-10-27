@@ -1,5 +1,7 @@
 # FreeBee
 
+<img src="docs/images/bee-pioneer.jpg" alt="Bee (Pioneer Edition) wristband, with its blue status light on" width="600">
+
 Use the Bee wearable without the Bee app or Bee/Amazon servers. The band only speaks Bluetooth
 to a phone. The official app is what relays audio and events to the cloud, so replacing the app
 cuts that path entirely.
